@@ -1,5 +1,12 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+#pandaIcon {
+  height: 10%;
+  width: 25%;
+  margin: 1px;
+  float: left;
+}
+
+#flowersApp{
+  height: 50%;
+  margin: 30px;
+  margin-left: 250px;
 }

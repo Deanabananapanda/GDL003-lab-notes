@@ -1,21 +1,58 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Login from './login';
 
 class App extends Component {
-  render() {
+  render(){
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> Diana.
-        </p>
+      <div className="PandaNotes">
+      <header className="App-header">
+      {<img id="pandaIcon" src="https://i.ibb.co/GPyFzHR/Frame-2.png"></img>}
+      <div className="header">
+      {<img id="flowersApp" src="https://i.ibb.co/54rJz16/Group-3.png"></img>}
       </div>
+      <Login />
+      </header>
+    </div>
     );
   }
 }
+
+// class App extends Component {
+
+//   constructor() {
+//     super();
+//     this.state = {
+//      notes: [
+//        {noteId: 1, noteContent: 'note 1'},
+//        {noteId: 2, noteContent: 'note 2'},
+//      ]
+//     };
+//   }
+
+//   render() {
+//     return (
+//       <div className = "notesContainer">
+//       <div className = "notesHeader">
+//       <h1>Panda Notes</h1>
+//        </div>
+//        <div className ="notesBody">
+//        {
+//          this.state.notes.map(note => { 
+//       return (
+//       <ul></ul>
+//        )
+//        })
+//       }
+//        </div>
+
+//        <div className ="notesFooter">
+
+//        </div>
+
+//       </div>
+//     );
+//   }
+// }
 
 export default App;

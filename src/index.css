@@ -1,12 +1,78 @@
-#pandaIcon {
-  height: 10%;
-  width: 25%;
-  margin: 1px;
-  float: left;
+body{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  /* background-image: url("https://thumbs.gfycat.com/BronzeClearcutAlaskanhusky-size_restricted.gif");
+  background-position: center;
+   */
+}
+.footerBackground{
+  display: grid;
+  grid-template-columns: 19.90% 19.90% 19.90% 19.90% 19.90%;
+  height: 10px;
+  align-items: stretch;
+  justify-items: stretch;
 }
 
-#flowersApp{
-  height: 50%;
-  margin: 30px;
-  margin-left: 250px;
+.bambooLog1{
+  grid-column-start: 1;
 }
+
+.bambooLog2{
+  grid-column-start: 2;
+}
+.bambooLog3{
+  grid-column-start: 3;
+}
+.bambooLog4{
+  grid-column-start: 4;
+}
+.bambooLog5{
+  grid-column-start: 5;
+}
+
+.App-header{
+  display: grid;
+  grid-template-columns: 19.90% 19.90% 19.90% 19.90% 19.90%;
+  align-items: center;
+}
+
+.pandaLogo {
+  grid-column-start: 2;
+  justify-self: center;
+  width: 50%;
+} 
+/* .bambooLogo {
+  grid-column-start: ;
+  justify-self: center;
+  width: 70%;
+} */
+.pLogo{
+  grid-column-start: 5;
+  justify-self: start;
+  margin: none;
+  margin: 10%;
+}
+.hojaLogo{
+  justify-self: center;
+  width: 60%;
+  
+}
+
+#neko {
+  width: 20%;
+}
+
+.google{
+  border:1px, #fff;
+  background: #ffffff;;
+  border-radius: 15px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px;
+  width: 35%;
+  font-family: 'Quicksand', sans-serif;
+  text-align: top;
+}
+

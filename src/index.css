@@ -76,3 +76,42 @@ body{
   text-align: top;
 }
 
+
+.sendButton {
+  border:1px, #fff;
+  background: #ffffff;;
+  border-radius: 8px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px;
+  width: 15%;
+  font-family: 'Quicksand', sans-serif;
+  text-align: top;
+}
+
+.whriteNote {
+  border:1px, #fff;
+  background: #ffffff;;
+  border-radius: 30px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px;
+  width: 50%;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.trash{
+  margin: 50px;
+  width: 50px;
+}
+.edit{
+  margin: 50px;
+  width: 50px;
+}
+.save{
+  margin: 50px;
+  width: 50px;
+}

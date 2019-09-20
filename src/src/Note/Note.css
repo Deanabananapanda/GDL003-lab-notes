@@ -1,0 +1,27 @@
+.notasStyle {
+    background-color: rgba(57, 255, 7, 0.24);
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    width: 95%;
+    height: 10%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+
+  }
+  
+#sendButton {
+  border:1px, #fff;
+  background: #ffffff;;
+  border-radius: 15px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 5px;
+  width: 35%;
+  font-family: 'Quicksand', sans-serif;
+  text-align: top;
+}
+
+
+
